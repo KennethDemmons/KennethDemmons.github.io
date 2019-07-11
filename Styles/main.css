@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(255,221,0,1) 100%);
+}
+
+h1 {
+	color: gold;
+ 	text-shadow: 3px 2px #cc6600;
+}
+
+ol { 
+  font-weight: bold;
+  color: #FFD700 
+  
+}
+ p {
+ 	font-size: 20px;
+  	line-height: double;
+ }
+
+ li 
+   font-size: 20px;
+ }
+
+ ul 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff7b07;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff7b07;
+}
