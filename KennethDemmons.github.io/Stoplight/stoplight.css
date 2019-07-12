@@ -1,0 +1,40 @@
+
+body {
+	background-color: lightgreen;
+}
+.Inner { 
+background-color: #000000;
+border: 2px solid black;
+width: 75px;
+height: 75px;
+margin: 20px auto;
+border-radius: 50px;
+}
+#Outer {
+	width: 20%;
+	border: 5px solid black;
+	 position: relative;
+	 background-color:rgba(192,192,192, 0.8);
+  left: 500px;
+  box-shadow: 4px 4px 4px black;
+} 
+h1 {
+	text-align: center;
+}
+#red:hover{
+	background: linear-gradient(to right, #ed213a, #93291e);
+}
+#yellow:hover{ 
+background: linear-gradient(to right,  #ffff80, #808000);
+}
+#green:hover{
+	background: linear-gradient(to right, #3cb371, #1f7a1f);
+}
+#post{
+	width: 5%;
+	height: 75px;
+	border: 5px solid black;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
